@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NsqSharp.NetCore.Common\NsqSharp.NetCore.Common.csproj" />
+    <ProjectReference Include="..\NsqSharp.NetCore.HttpClient\NsqSharp.NetCore.HttpClient.csproj" />
+    <ProjectReference Include="..\NsqSharp.NetCore.Logging\NsqSharp.NetCore.Logging.csproj" />
+  </ItemGroup>
+
+</Project>

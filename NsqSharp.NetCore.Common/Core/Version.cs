@@ -1,4 +1,6 @@
-﻿namespace NsqSharp.Core
+﻿using System.Reflection;
+
+namespace NsqSharp.Core
 {
     // https://github.com/nsqio/go-nsq/blob/master/version.go
 
@@ -9,7 +11,7 @@
     {
         static ClientInfo()
         {
-            var version = typeof(ClientInfo).Assembly.GetName().Version;
+            var version = typeof(ClientInfo).GetTypeInfo().Assembly.GetName().Version;
             Version = string.Format("{0}.{1}.{2}", version.Major, version.Minor, version.Build);
         }
 
