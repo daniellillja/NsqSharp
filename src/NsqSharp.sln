@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore.IntegrationTests", "NsqSharp.NetCore.IntegrationTests\NsqSharp.NetCore.IntegrationTests.csproj", "{E6BFB9F3-0B23-4745-9B42-366887D18CE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore.Testing.Common", "NsqSharp.NetCore.Testing.Common\NsqSharp.NetCore.Testing.Common.csproj", "{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore", "NsqSharp.NetCore\NsqSharp.NetCore.csproj", "{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore.UnitTests", "NsqSharp.NetCore.UnitTests\NsqSharp.NetCore.UnitTests.csproj", "{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Integration Tests|Any CPU = Integration Tests|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Integration Tests|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Integration Tests|Any CPU.Build.0 = Debug|Any CPU
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BFB9F3-0B23-4745-9B42-366887D18CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Integration Tests|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Integration Tests|Any CPU.Build.0 = Debug|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95B5B08-53BA-49D8-9CF2-22159BF87B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Integration Tests|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Integration Tests|Any CPU.Build.0 = Debug|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD927B93-3EEA-440B-A3BC-84BB3C62BA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Integration Tests|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Integration Tests|Any CPU.Build.0 = Debug|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
