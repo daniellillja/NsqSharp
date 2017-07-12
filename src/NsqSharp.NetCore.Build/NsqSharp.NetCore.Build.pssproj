@@ -1,0 +1,162 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6CAFC0C6-A428-4d30-A9F9-700E829FEA51</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyApplication</RootNamespace>
+    <AssemblyName>MyApplication</AssemblyName>
+    <Name>NsqSharp.NetCore.Build</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="psake-4.6.0\" />
+    <Folder Include="psake-4.6.0\docs\" />
+    <Folder Include="psake-4.6.0\en-US\" />
+    <Folder Include="psake-4.6.0\examples\" />
+    <Folder Include="psake-4.6.0\examples\nested\" />
+    <Folder Include="psake-4.6.0\examples\passingParametersString\" />
+    <Folder Include="psake-4.6.0\images\" />
+    <Folder Include="psake-4.6.0\nuget\" />
+    <Folder Include="psake-4.6.0\nuget\tools\" />
+    <Folder Include="psake-4.6.0\specs\" />
+    <Folder Include="psake-4.6.0\specs\modules\" />
+    <Folder Include="psake-4.6.0\specs\nested\" />
+    <Folder Include="psake-4.6.0\tabexpansion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="build.ps1" />
+    <Compile Include="default.ps1" />
+    <Compile Include="psake-4.6.0\.gitattributes" />
+    <Compile Include="psake-4.6.0\.gitignore" />
+    <Compile Include="psake-4.6.0\docs\access-functions-in-another-file.md" />
+    <Compile Include="psake-4.6.0\docs\build-script-resilience.md" />
+    <Compile Include="psake-4.6.0\docs\conditional-task.md" />
+    <Compile Include="psake-4.6.0\docs\cruise-control.md" />
+    <Compile Include="psake-4.6.0\docs\debug-script.md" />
+    <Compile Include="psake-4.6.0\docs\dot-net-solution.md" />
+    <Compile Include="psake-4.6.0\docs\getting-help.md" />
+    <Compile Include="psake-4.6.0\docs\how-does-psake-work.md" />
+    <Compile Include="psake-4.6.0\docs\how-to-fail-a-build.md" />
+    <Compile Include="psake-4.6.0\docs\hudson.md" />
+    <Compile Include="psake-4.6.0\docs\index.md" />
+    <Compile Include="psake-4.6.0\docs\logging-errors.md" />
+    <Compile Include="psake-4.6.0\docs\nested-build.md" />
+    <Compile Include="psake-4.6.0\docs\pass-parameters.md" />
+    <Compile Include="psake-4.6.0\docs\print-psake-task-name.md" />
+    <Compile Include="psake-4.6.0\docs\property-overrides.md" />
+    <Compile Include="psake-4.6.0\docs\retry-rules.md" />
+    <Compile Include="psake-4.6.0\docs\run-psake.md" />
+    <Compile Include="psake-4.6.0\docs\structure-of-a-psake-build-script.md" />
+    <Compile Include="psake-4.6.0\docs\team-city.md" />
+    <Compile Include="psake-4.6.0\docs\variable-referencing.md" />
+    <Compile Include="psake-4.6.0\docs\what-can-i-use-psake-for.md" />
+    <Compile Include="psake-4.6.0\docs\where-can-i-get-psake.md" />
+    <Compile Include="psake-4.6.0\docs\who-is-using-psake.md" />
+    <Compile Include="psake-4.6.0\en-US\psake.psm1-help.xml" />
+    <Compile Include="psake-4.6.0\examples\checkvariables.ps1" />
+    <Compile Include="psake-4.6.0\examples\continueonerror.ps1" />
+    <Compile Include="psake-4.6.0\examples\default.ps1" />
+    <Compile Include="psake-4.6.0\examples\formattaskname_scriptblock.ps1" />
+    <Compile Include="psake-4.6.0\examples\formattaskname_string.ps1" />
+    <Compile Include="psake-4.6.0\examples\msbuild40.ps1" />
+    <Compile Include="psake-4.6.0\examples\nested.ps1" />
+    <Compile Include="psake-4.6.0\examples\nested\nested1.ps1" />
+    <Compile Include="psake-4.6.0\examples\nested\nested2.ps1" />
+    <Compile Include="psake-4.6.0\examples\paralleltasks.ps1" />
+    <Compile Include="psake-4.6.0\examples\parameters.ps1" />
+    <Compile Include="psake-4.6.0\examples\passingParametersString\build.Release.Version.bat" />
+    <Compile Include="psake-4.6.0\examples\passingParametersString\parameters.ps1" />
+    <Compile Include="psake-4.6.0\examples\preandpostaction.ps1" />
+    <Compile Include="psake-4.6.0\examples\preandpostcondition.ps1" />
+    <Compile Include="psake-4.6.0\examples\properties.ps1" />
+    <Compile Include="psake-4.6.0\examples\requiredvariables.ps1" />
+    <Compile Include="psake-4.6.0\examples\tasksetupandteardown.ps1" />
+    <Compile Include="psake-4.6.0\images\psake.pdn" />
+    <Compile Include="psake-4.6.0\images\psake.png" />
+    <Compile Include="psake-4.6.0\images\SakeBottle.jpg" />
+    <Compile Include="psake-4.6.0\images\SakeBottleLicense.txt" />
+    <Compile Include="psake-4.6.0\license.txt" />
+    <Compile Include="psake-4.6.0\mkdocs.yml" />
+    <Compile Include="psake-4.6.0\NuGet.exe" />
+    <Compile Include="psake-4.6.0\NuGetPackageBuilder.ps1" />
+    <Compile Include="psake-4.6.0\nuget\psake.nuspec" />
+    <Compile Include="psake-4.6.0\nuget\tools\chocolateyInstall.ps1" />
+    <Compile Include="psake-4.6.0\nuget\tools\init.ps1" />
+    <Compile Include="psake-4.6.0\psake-buildTester.ps1" />
+    <Compile Include="psake-4.6.0\psake-config.ps1" />
+    <Compile Include="psake-4.6.0\psake.cmd" />
+    <Compile Include="psake-4.6.0\psake.ps1" />
+    <Compile Include="psake-4.6.0\psake.psd1" />
+    <Compile Include="psake-4.6.0\psake.psm1" />
+    <Compile Include="psake-4.6.0\README.markdown" />
+    <Compile Include="psake-4.6.0\specs\bad_PreAndPostActions_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\calling_invoke-task_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\circular_dependency_in_tasks_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\default_task_with_action_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\detailedDocs_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\docs_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\dotNet4.5.1_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\dotNet4.6.1_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\dotNet4.6_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\dotNet4_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\duplicate_alias_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\duplicate_tasks_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\executing_module_function_that_depends_on_another_module_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\explicitly_specified_32bit_build_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\failing_postcondition_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\Get-PSakeScriptTasks_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\missing_task_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\modules\default.ps1" />
+    <Compile Include="psake-4.6.0\specs\modules\ModuleA.psm1" />
+    <Compile Include="psake-4.6.0\specs\modules\ModuleB.psm1" />
+    <Compile Include="psake-4.6.0\specs\modules\psake-config.ps1" />
+    <Compile Include="psake-4.6.0\specs\multiline_blocks_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested\always_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested\docs.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested\nested1.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested\nested2.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested\whatifpreference.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested_builds_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\nested_builds_that_fail_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\nonzero_lastexitcode_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\running_aspnet_compiler_under_dotNet35_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\simple_properties_and_tasks_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\tasksetup_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\task_with_alias_and_dependencies_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\task_with_alias_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_exec_and_nonzero_lastexitcode_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_framework_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_initialization_block_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_msbuild_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_parameters_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_postcondition_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_PreAndPostActions_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_precondition_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_properties_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_required_when_not_set_should_fail.ps1" />
+    <Compile Include="psake-4.6.0\specs\using_required_when_set_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\whatif_preference_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\specs\writing_psake_variables_should_pass.ps1" />
+    <Compile Include="psake-4.6.0\tabexpansion\PsakeTabExpansion.ps1" />
+    <Compile Include="psake-4.6.0\tabexpansion\Readme.PsakeTab.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="Build" />
+</Project>

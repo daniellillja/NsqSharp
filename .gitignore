@@ -10,7 +10,6 @@ TestResult.xml
 **/nuget/lib/
 bin/
 obj/
-build/
 nuget-tests/
 nsq-0.3.2-bin/*.dat
 build_web/

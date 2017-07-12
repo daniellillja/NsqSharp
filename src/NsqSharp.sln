@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore", "NsqShar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NsqSharp.NetCore.UnitTests", "NsqSharp.NetCore.UnitTests\NsqSharp.NetCore.UnitTests.csproj", "{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "NsqSharp.NetCore.Build", "NsqSharp.NetCore.Build\NsqSharp.NetCore.Build.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,12 @@ Global
 		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Integration Tests|Any CPU.Build.0 = Debug|Any CPU
 		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81990AA-4A00-41F1-AD28-9CB657EFD2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Integration Tests|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Integration Tests|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
